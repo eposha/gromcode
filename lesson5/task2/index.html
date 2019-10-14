@@ -6,20 +6,20 @@
     <title>Селекторы атрибутов</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
     <style>
-        * {
-            background-color: green;
+        [data-description="anchors"] {
+            background-color: grey;
         }
         
-        li {
+        [data-description] {
             font-size: 24px;
         }
         
-        .page-header {
-            background-color: orange;
+        a[href][target] {
+            color: green;
         }
         
-        #best {
-            border: 2px solid red;
+        input[type="text"] {
+            color: orange;
         }
     </style>
 </head>
