@@ -1,0 +1,29 @@
+.rect1 {
+    height: 200px;
+    background-color: red;
+}
+
+.rect2 {
+    height: 200px;
+    background-color: green;
+}
+
+.rect3 {
+    height: 200px;
+    background-color: blue;
+}
+
+.rect4 {
+    height: 200px;
+    background-color: yellow;
+}
+
+.rect5 {
+    height: 200px;
+    background-color: black;
+}
+
+.rect {
+    width: 20%;
+    float: left;
+}
