@@ -1,7 +1,7 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 .header {
     display: flex;
@@ -19,7 +19,7 @@ nav {
 
 nav ul {
     display: flex;
-    margin-left: 36px;
+    /* margin-left: 36px; */
     list-style: none;
     height: 40px;
 }
