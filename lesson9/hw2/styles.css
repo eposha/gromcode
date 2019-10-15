@@ -20,7 +20,7 @@ nav {
 nav ul {
     display: flex;
     /* margin-left: 36px; */
-    list-style: none;
+    /* list-style: none; */
     height: 40px;
 }
 
@@ -30,6 +30,10 @@ nav ul li {
     margin-left: 16px;
     color: white;
     height: 100%;
+}
+
+nav ul li:nth-child(2) {
+    /* margin-left: 20px; */
 }
 
 main {
