@@ -1,29 +1,34 @@
-.rect1 {
+.block_red {
+    width: 20%;
+    float: left;
     height: 200px;
     background-color: red;
 }
 
-.rect2 {
+.block_green {
+    width: 20%;
+    float: left;
     height: 200px;
     background-color: green;
 }
 
-.rect3 {
+.block_blue {
+    width: 20%;
+    float: left;
     height: 200px;
     background-color: blue;
 }
 
-.rect4 {
+.block_yellow {
+    width: 20%;
+    float: left;
     height: 200px;
     background-color: yellow;
 }
 
-.rect5 {
-    height: 200px;
-    background-color: black;
-}
-
-.rect {
+.block_black {
     width: 20%;
     float: left;
+    height: 200px;
+    background-color: black;
 }
