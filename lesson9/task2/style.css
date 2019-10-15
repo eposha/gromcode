@@ -1,0 +1,23 @@
+body {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.red {
+    background-color: red;
+    float: left;
+}
+
+.green {
+    background-color: green;
+    float: right;
+}
