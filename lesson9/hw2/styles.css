@@ -19,13 +19,17 @@ nav {
 
 nav ul {
     display: flex;
-    /* margin-left: 16px; */
+    margin-left: 32px;
     list-style: none;
+    height: 40px;
 }
 
 nav ul li {
+    display: flex;
+    align-items: center;
     margin-left: 16px;
     color: white;
+    height: 100%;
 }
 
 main {
