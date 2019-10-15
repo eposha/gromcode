@@ -19,7 +19,7 @@ nav {
 
 nav ul {
     display: flex;
-    margin-left: 32px;
+    margin-left: 49px;
     list-style: none;
     height: 40px;
 }
@@ -45,7 +45,6 @@ main {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    /* display: block; */
     left: 50%;
 }
 
