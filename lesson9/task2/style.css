@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
 }
@@ -8,16 +12,15 @@ body {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    clear: both;
 }
 
 .red {
     background-color: red;
-    float: left;
+    float: right;
 }
 
 .green {
     background-color: green;
-    float: right;
+    float: left;
 }
