@@ -1,0 +1,29 @@
+header {
+    height: 50px;
+    background-color: yellow;
+}
+
+footer {
+    height: 50px;
+    background-color: green;
+}
+
+main {
+    position: relative;
+    float: left;
+    height: 500px;
+    width: 80%;
+    background-color: pink;
+    clear: both;
+}
+
+aside {
+    height: 500px;
+    float: right;
+    width: 20%;
+    background-color: grey;
+}
+
+footer {
+    clear: both;
+}
