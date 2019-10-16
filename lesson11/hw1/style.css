@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 16px;
+}
+
+.additional {
+    display: none;
+    position: absolute;
+    bottom: -40px;
+    background-color: grey;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+}
+
+.container:hover .additional {
+    display: block;
+}
