@@ -10,7 +10,7 @@
 }
 
 .menu-button {
-    padding: 18px 16px 16px 16px;
+    padding: 16px;
     background-color: darkgreen;
     opacity: .8;
     line-height: 18px;
@@ -35,7 +35,7 @@
 }
 
 .menu-item {
-    padding: 16px;
+    padding: 18px 16px 16px 16px;
 }
 
 .dropdown:hover .menu-list {
