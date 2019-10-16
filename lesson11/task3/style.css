@@ -3,24 +3,24 @@
 }
 
 .dropdown {
-    display: inline-block;
     position: relative;
+    display: inline-block;
     margin: 16px;
     padding: 16px;
+    color: white;
     line-height: 18px;
     cursor: pointer;
-    background-color: rgba(0, 100, 0, 0.8);
-    color: white;
+    background-color: darkgreen;
 }
 
 .menu-list {
-    display: none;
     position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
     top: 50px;
     left: 0;
     min-width: 120px;
-    margin: 0;
-    padding: 0;
     z-index: 1;
     list-style-type: none;
     color: black;
@@ -34,8 +34,4 @@
 
 .dropdown:hover .menu-list {
     display: block;
-}
-
-.dropdown:hover {
-    background-color: rgba(0, 100, 0, 1);
 }
