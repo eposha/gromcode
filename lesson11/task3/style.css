@@ -5,12 +5,12 @@
 
 .dropdown {
     position: relative;
-    margin: 16px;
+    margin: 18px;
     display: inline-block;
 }
 
 .menu-button {
-    padding: 18px;
+    padding: 16px;
     background-color: darkgreen;
     opacity: .8;
     line-height: 16px;
@@ -36,7 +36,7 @@
 }
 
 .menu-item {
-    padding: 18px;
+    padding: 16px;
 }
 
 .dropdown:hover .menu-list {
