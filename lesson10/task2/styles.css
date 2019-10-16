@@ -15,21 +15,7 @@ footer {
 
 header {
     display: flex;
-    align-items: center;
     background-color: yellow;
-}
-
-.nav-li {
-    display: flex;
-    list-style-type: none;
-}
-
-li {
-    list-style-type: none;
-}
-
-.nav-li-item {
-    margin-right: 10px;
 }
 
 main {
@@ -40,7 +26,6 @@ main {
 
 aside {
     display: flex;
-    flex-direction: column;
     width: 200px;
     background-color: grey;
 }
@@ -48,18 +33,12 @@ aside {
 section {
     display: flex;
     flex-grow: 1;
-    justify-content: center;
-    align-items: center;
     background-color: pink;
 }
 
 footer {
     display: flex;
     background-color: green;
-}
-
-.footer__text {
-    margin: auto;
 }
 
 .aside__cont {
