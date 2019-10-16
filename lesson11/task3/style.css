@@ -41,7 +41,3 @@
 .dropdown:hover .menu-list {
     display: block;
 }
-
-.dropdown:hover .menu-item {
-    background-color: ghostwhite;
-}
