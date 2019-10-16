@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 .dropdown {
@@ -9,7 +10,7 @@
 }
 
 .menu-button {
-    padding: 16px;
+    padding: 18px 16px 16px 16px;
     background-color: darkgreen;
     opacity: .8;
     line-height: 18px;
@@ -35,7 +36,6 @@
 
 .menu-item {
     padding: 16px;
-    list-style-type: none;
 }
 
 .dropdown:hover .menu-list {
