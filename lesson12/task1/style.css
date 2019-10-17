@@ -4,28 +4,28 @@
     font-size: 18px;
 }
 
-.content {
+section {
     margin: 32px;
 }
 
-.title {
+h1 {
     word-spacing: 20px;
-    text-align: center;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.paragraph {
+section p {
     line-height: 28px;
 }
 
-.first-word {
+b {
     font-size: 24px;
     opacity: 0.8;
     letter-spacing: 3px;
     text-decoration: underline;
 }
 
-.translation {
+.it {
     font-style: italic;
     color: grey;
 }
