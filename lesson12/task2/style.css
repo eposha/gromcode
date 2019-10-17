@@ -6,7 +6,7 @@ body {
     font-family: Verdana;
 }
 
-.title {
+h1 {
     width: 50vw;
     margin: 0 auto;
     font-size: 74px;
@@ -16,7 +16,7 @@ body {
     text-overflow: ellipsis;
 }
 
-.content {
+div {
     height: 200px;
     line-height: 200px;
     background-color: coral;
