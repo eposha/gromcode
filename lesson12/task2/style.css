@@ -1,14 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Verdana', sans-serif;
 }
 
 header {
     margin: auto;
-    font-size: 74px;
     width: 50vw;
 }
 
 header h1 {
+    font-size: 74px;
     margin: 16px 0;
     text-align: center;
     overflow: hidden;
@@ -17,7 +21,7 @@ header h1 {
 }
 
 div {
-    height: 216px;
+    height: 200px;
     background-color: coral;
     color: white;
     text-align: center;
