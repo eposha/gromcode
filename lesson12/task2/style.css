@@ -14,10 +14,10 @@ header h1 {
 }
 
 div {
-    height: 200px;
+    height: 250px;
     background-color: coral;
     color: white;
     text-align: center;
     text-transform: uppercase;
-    line-height: 200px;
+    line-height: 250px;
 }
