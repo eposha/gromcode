@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 body {
     margin: 32px;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
 }
 
 section h1 {
@@ -18,8 +18,7 @@ section p {
     line-height: 28px;
 }
 
-section p span {
-    font-weight: bold;
+section p b {
     letter-spacing: 3px;
     font-size: 24px;
     opacity: 0.8;
