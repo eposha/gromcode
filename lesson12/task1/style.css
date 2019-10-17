@@ -28,7 +28,7 @@ a {
     text-decoration-line: none;
 }
 
-em {
+.it {
     font-style: italic;
     color: grey;
 }
