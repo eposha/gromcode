@@ -9,7 +9,7 @@ header {
     font-family: Arial;
     font-weight: 700;
     font-size: 96px;
-    background-image: linear-gradient(-45deg, #f00, #ffff00);
+    background-image: linear-gradient(45deg, #ffff00, #f00);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
