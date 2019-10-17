@@ -15,5 +15,6 @@ li {
 }
 
 .tt {
-    text-decoration: green underline;
+    display: inline;
+    border-bottom: 2px solid green;
 }
