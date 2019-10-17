@@ -1,0 +1,31 @@
+body {
+    margin: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+section h1 {
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section p {
+    line-height: 28px;
+}
+
+section p span {
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity: 0.8;
+    text-decoration-line: underline;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+em {
+    color: grey;
+}
