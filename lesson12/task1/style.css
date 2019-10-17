@@ -1,34 +1,35 @@
-html {
-    font-size: 18px;
+* {
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
-section {
+.content {
     margin: 32px;
 }
 
-h1 {
+.title {
     word-spacing: 20px;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
 }
 
-p {
+.paragraph {
     line-height: 28px;
 }
 
-section p b {
-    letter-spacing: 3px;
+.first-word {
     font-size: 24px;
     opacity: 0.8;
-    text-decoration-line: underline;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.translation {
+    font-style: italic;
+    color: grey;
 }
 
 a {
-    text-decoration-line: none;
-}
-
-.it {
-    font-family: italic;
-    color: grey;
+    text-decoration: none;
 }
