@@ -7,7 +7,7 @@ li {
 }
 
 li:last-child {
-    text-decoration: red underline;
+    text-decoration: green underline;
 }
 
 li:nth-child(2) {
@@ -15,5 +15,5 @@ li:nth-child(2) {
 }
 
 li:first-child {
-    text-decoration: yellow overline;
+    text-decoration: red overline;
 }
