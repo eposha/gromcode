@@ -1,0 +1,23 @@
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 74px;
+    width: 50%;
+}
+
+header h1 {
+    margin: 16px 0;
+}
+
+div {
+    height: 200px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200px;
+}
