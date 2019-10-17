@@ -4,13 +4,16 @@ body {
 
 header {
     margin: 0 auto;
-    justify-content: center;
     font-size: 74px;
     width: 50%;
 }
 
 header h1 {
     margin: 16px 0;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 div {
