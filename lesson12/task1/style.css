@@ -1,14 +1,13 @@
-* {
-    box-sizing: border-box;
+html {
     font-size: 18px;
-}
-
-body {
-    margin: 32px;
     font-family: 'Roboto', sans-serif;
 }
 
-section h1 {
+section {
+    margin: 32px;
+}
+
+h1 {
     word-spacing: 20px;
     text-transform: uppercase;
     text-align: center;
