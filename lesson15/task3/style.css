@@ -1,7 +1,6 @@
 iframe {
-    margin: 0 auto;
-    margin-top: 100px auto;
     display: block;
+    margin: 100px auto;
     width: 500px;
     height: 400px;
 }
