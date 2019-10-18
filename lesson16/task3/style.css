@@ -5,19 +5,18 @@ input[type="checkbox"] {
 }
 
 .checkmark {
-    display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
+    display: inline-block;
     width: 25px;
     height: 25px;
     background-color: #d3d3d3;
 }
 
 .checkbox {
-    /* display: inline-block; */
     position: relative;
-    /* padding-left: 35px; */
+    padding-left: 35px;
     /* margin: 16px; */
     font-size: 24px;
 }
