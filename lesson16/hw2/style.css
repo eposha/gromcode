@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    flex-grow: 0;
+}
+
+input {
+    margin: 16px;
+    align-self: flex-start;
+}
+
+.languages,
+select,
+textarea {
+    margin: 16px;
+    align-self: flex-start;
+}
