@@ -43,7 +43,7 @@ body {
     outline: none;
 }
 
-.form-input:invalid {
+.form-input:invalid:not(:placeholder-shown) {
     border: 2px solid red;
 }
 
