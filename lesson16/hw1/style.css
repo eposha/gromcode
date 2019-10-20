@@ -3,12 +3,16 @@
 }
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: bisque;
+    height: 100vh;
 }
 
 .page {
     /* display: flex; */
-    margin: auto;
+    padding: auto;
 }
 
 .login-form {
