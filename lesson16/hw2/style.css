@@ -9,9 +9,12 @@ input {
     align-self: flex-start;
 }
 
-.languages,
 select,
 textarea {
     margin-bottom: 8px;
     align-self: flex-start;
+}
+
+.languages {
+    margin-bottom: 8px;
 }
