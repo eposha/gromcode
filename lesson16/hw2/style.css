@@ -10,7 +10,7 @@ input {
 
 select,
 textarea {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     align-self: flex-start;
 }
 
