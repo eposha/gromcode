@@ -1,24 +1,24 @@
-.fa-battery-full {
+.fa.fa-battery-full {
     font-size: 16px;
 }
 
-.fa-battery-three-quarters {
+.fa.fa-battery-three-quarters {
     font-size: 32px;
 }
 
-.fa-battery-half {
+.fa.fa-battery-half {
     font-size: 64px;
 }
 
-.fa-battery-quarter {
+.fa.fa-battery-quarter {
     font-size: 128px;
 }
 
-.fa-battery-empty {
+.fa.fa-battery-empty {
     font-size: 256px;
 }
 
 .icon {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
