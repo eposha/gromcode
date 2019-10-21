@@ -5,6 +5,7 @@
 table {
     width: 500px;
     margin: 16px;
+    border-collapse: collapseж
 }
 
 caption {
@@ -21,7 +22,7 @@ th {
 td,
 th {
     text-align: right;
-    line-height: 37px;
+    line-height: 40px;
     padding-right: 4px;
 }
 
