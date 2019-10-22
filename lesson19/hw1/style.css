@@ -15,6 +15,7 @@
     animation: blinking 2s linear infinite;
     font-size: 16px;
     text-transform: uppercase;
+    font-family: monospace;
 }
 
 .rect {
