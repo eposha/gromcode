@@ -10,7 +10,7 @@
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
-    animation: blinking 2s infinite, blinking 2s linear infinite;
+    animation: blinking 2s infinite;
 }
 
 .spinner {
@@ -27,7 +27,7 @@
     border-top: 4px solid black;
     border-radius: 100%;
     margin-bottom: 8px;
-    animation: rot 2s linear infinite;
+    animation: rot 2s infinite;
 }
 
 @keyframes blinking {
