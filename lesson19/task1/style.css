@@ -6,39 +6,39 @@
     margin: 32px;
 }
 
-.container div {
+.rect {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100px;
+    height: 100px;
     margin-bottom: 16px;
     background-color: coral;
     opacity: 0.5;
-    height: 100px;
-    width: 100px;
 }
 
-.container div:hover {
-    opacity: 1;
+.rect:hover {
     width: 100%;
-    transition: opacity 1s, width 1s;
+    opacity: 1;
+    transition: width 1s, opacity 1s;
 }
 
-.container div:nth-child(1) {
+.linear {
     transition-timing-function: linear;
 }
 
-.container div:nth-child(2) {
+.ease {
     transition-timing-function: ease;
 }
 
-.container div:nth-child(3) {
+.ease-in {
     transition-timing-function: ease-in;
 }
 
-.container div:nth-child(4) {
+.ease-out {
     transition-timing-function: ease-out;
 }
 
-.container div:nth-child(5) {
+.ease-in-out {
     transition-timing-function: ease-in-out;
 }
