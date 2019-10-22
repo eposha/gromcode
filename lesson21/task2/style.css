@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.main-content {
+.content {
     display: flex;
     min-height: 100vh;
     min-width: 100vw;
@@ -20,7 +20,7 @@
     background-color: #5af;
 }
 
-.main-image {
+.image {
     max-width: 100%;
     margin: auto;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
