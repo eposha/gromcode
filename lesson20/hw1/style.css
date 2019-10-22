@@ -27,7 +27,7 @@
     border-top: 4px solid black;
     border-radius: 100%;
     margin-bottom: 8px;
-    /* animation: rot 2s linear infinite; */
+    animation: rot 2s linear infinite;
 }
 
 @keyframes blinking {
