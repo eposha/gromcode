@@ -7,6 +7,7 @@
 }
 
 .spinner {
+    position: relative;
     font-family: monospace;
 }
 
@@ -17,9 +18,12 @@
 }
 
 .rect {
+    position: absolute;
     background-color: black;
     width: 10px;
     height: 4px;
+    border-radius: 2px;
+    animation: moving 2s infinite alternate, blinking 2s infinite;
 }
 
 @keyframes moving {
