@@ -2,41 +2,12 @@
     box-sizing: border-box;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.spinner {
-    position: relative;
-}
-
-.spinner-text {
-    position: relative;
-    animation: blinking 2s infinite;
-    animation: blinking 2s linear infinite;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-family: monospace;
-}
-
-.rect {
-    position: absolute;
-    background-color: black;
-    width: 10px;
-    height: 4px;
-    border-radius: 2px;
-    animation: moving 2s infinite alternate, blinking 2s infinite;
-}
-
 @keyframes moving {
-    from {
+    0% {
         left: 0;
         opacity: 1;
     }
-    to {
+    100% {
         left: 70px;
     }
 }
@@ -51,4 +22,35 @@
     100% {
         opacity: 0;
     }
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.spinner {
+    position: relative;
+    animation: blinking 2s linear;
+    animation-iteration-count: infinite;
+}
+
+.spinner-text {
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.rect {
+    background-color: black;
+    width: 10px;
+    height: 4px;
+    border-radius: 2px;
+    animation: moving 2s linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* position: absolute; */
 }
