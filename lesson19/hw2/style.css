@@ -1,24 +1,21 @@
-.fa.fa-battery-full {
-    font-size: 16px;
-}
-
-.fa.fa-battery-three-quarters {
-    font-size: 32px;
-}
-
-.fa.fa-battery-half {
-    font-size: 64px;
-}
-
-.fa.fa-battery-quarter {
-    font-size: 128px;
-}
-
-.fa.fa-battery-empty {
-    font-size: 256px;
-}
-
-.icon {
+.container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.block {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: coral;
 }
