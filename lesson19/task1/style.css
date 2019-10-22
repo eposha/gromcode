@@ -20,7 +20,7 @@
 .container div:hover {
     opacity: 1;
     width: 100%;
-    transition: opacity .5s, width 2s;
+    transition: opacity .5s, width 1s;
 }
 
 .container div:nth-child(1) {
