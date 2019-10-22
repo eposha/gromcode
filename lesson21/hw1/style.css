@@ -8,7 +8,14 @@ html {
     font-size: 16px;
 }
 
-h1 {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
     text-align: center;
     color: white;
     background-image: linear-gradient(60deg, red, orange);
@@ -19,8 +26,8 @@ h1 {
     padding: 0.5em;
 }
 
-.section,
 .navigation,
+.section,
 .news {
     padding: 0.5em;
 }
@@ -33,22 +40,15 @@ h1 {
     display: flex;
     justify-content: center;
     width: 100%;
-    font-size: 1.25em;
-    height: 100vh;
 }
 
 .section {
-    width: 80%;
+    width: 60%;
+    font-size: 1.25em;
 }
 
-.news {
-    width: 20%;
-}
-
-.nav-list {
-    line-height: 1.75;
-    padding: 0;
-    list-style-type: none;
+.units-list {
+    line-height: 1.75em;
 }
 
 .css-units {
@@ -59,23 +59,27 @@ h1 {
 }
 
 .section__header {
-    font-size: 5rem;
+    font-size: 5vw;
     text-align: center;
 }
 
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
 .nav-list-item {
-    background-color: #808080;
-    color: white;
+    display: flex;
     height: 2em;
     margin: 0.5em;
+    background-color: #808080;
 }
 
 .nav-list-link {
-    display: flex;
+    display: inline;
     color: white;
+    margin: 0.5em;
     text-decoration: none;
-    font-size: 1.125em;
-    margin-left: 0.5em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
