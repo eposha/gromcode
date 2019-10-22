@@ -6,17 +6,14 @@
     width: 100vw;
 }
 
-.spinner-text {
-    font-family: monospace;
-    font-size: 16px;
-    text-transform: uppercase;
-    animation: blinking 1s linear infinite;
-}
-
 .spinner {
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    animation: blinking 2s linear infinite;
 }
 
 .circle {
@@ -27,7 +24,7 @@
     border-top: 4px solid black;
     border-radius: 100%;
     margin-bottom: 8px;
-    animation: rot 1s linear infinite;
+    animation: rot 2s linear infinite;
 }
 
 @keyframes blinking {
