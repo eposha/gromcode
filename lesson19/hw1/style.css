@@ -52,5 +52,4 @@
     animation: moving 2s linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    /* position: absolute; */
 }
