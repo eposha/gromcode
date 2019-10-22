@@ -10,7 +10,7 @@
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
-    animation: blinking 1.9s linear infinite;
+    animation: blinking 1.3s linear infinite;
 }
 
 .spinner {
