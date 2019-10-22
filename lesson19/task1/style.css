@@ -15,12 +15,12 @@
     opacity: 0.5;
     height: 100px;
     width: 100px;
-    transition: opacity .5s, width 2s;
 }
 
 .container div:hover {
     opacity: 1;
     width: 100%;
+    transition: opacity .5s, width 2s;
 }
 
 .container div:nth-child(1) {
