@@ -47,6 +47,10 @@ body {
     font-size: 1.25em;
 }
 
+.news {
+    width: 20%;
+}
+
 .units-list {
     line-height: 1.75em;
 }
