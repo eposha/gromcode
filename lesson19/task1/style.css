@@ -10,7 +10,7 @@
     opacity: 0.5;
     width: 100px;
     height: 100px;
-    transition: width 1s, opacity 0.5s;
+    transition: width 2s, opacity 0.5s;
 }
 
 .rect:hover {
