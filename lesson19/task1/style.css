@@ -3,14 +3,15 @@
 }
 
 .rect {
-    background-color: coral;
     margin-bottom: 16px;
-    text-align: center;
-    line-height: 100px;
-    opacity: 0.5;
     width: 100px;
     height: 100px;
-    transition: width 2s, opacity 0.5s;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    transition: width 1s, opacity .5s;
 }
 
 .rect:hover {
