@@ -8,13 +8,14 @@
 
 .spinner {
     position: relative;
-    font-family: monospace;
 }
 
 .spinner-text {
     animation: blinking 2s infinite;
     animation: blinking 2s linear infinite;
     font-size: 16px;
+    text-transform: uppercase;
+    font-family: monospace;
 }
 
 .rect {
