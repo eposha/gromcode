@@ -7,13 +7,14 @@ html {
     font-family: Vardana;
     color: #555;
     font-size: 16px;
+    height: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
 }
 
 .header {
@@ -26,6 +27,7 @@ body {
     background-color: #e5e5e5;
     padding: 0.5em;
     text-align: center;
+    flex: 0 0 auto;
 }
 
 .navigation,
@@ -41,7 +43,8 @@ body {
 .main {
     display: flex;
     justify-content: center;
-    width: 100%;
+    flex: 1 0 auto;
+    width: 100vw;
 }
 
 .section {
@@ -51,6 +54,7 @@ body {
 
 .news {
     width: 20%;
+    height: 100%;
 }
 
 .units-list {
@@ -76,13 +80,13 @@ body {
 
 .nav-list-item {
     display: flex;
+    box-sizing: content-box;
     height: 2em;
-    margin: 0.5em;
+    margin: 0.5em 0;
     background-color: #808080;
 }
 
 .nav-list-link {
-    display: inline;
     color: white;
     margin: 0.5em;
     text-decoration: none;
