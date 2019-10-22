@@ -10,11 +10,8 @@
     width: 100vw;
 }
 
-.spinner {
-    position: relative;
-}
-
 .spinner-text {
+    position: relative;
     animation: blinking 2s infinite;
     animation: blinking 2s linear infinite;
     font-size: 16px;
@@ -28,7 +25,7 @@
     width: 10px;
     height: 4px;
     border-radius: 2px;
-    animation: moving 2s infinite alternate, blinking 2s linear infinite;
+    animation: moving 2s infinite alternate, blinking 2s infinite;
 }
 
 @keyframes moving {
