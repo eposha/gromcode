@@ -97,7 +97,7 @@ html {
 }
 
 .navigation {
-    visibility: hidden;
+    display: none;
     margin: 1.5em .5em;
     max-width: 20vw;
 }
@@ -127,10 +127,10 @@ html {
 }
 
 @media screen and (min-width: 600px) {
-    .burger-menu {
-        visibility: hidden;
+    .btn {
+        display: none;
     }
     .navigation {
-        visibility: visible;
+        display: block;
     }
 }
