@@ -96,6 +96,7 @@ body {
 
 img {
     max-width: 100%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 600px) {
@@ -109,12 +110,12 @@ img {
     }
 }
 
-@media screen and (max-width: 901px) {
+@media screen and (max-width: 900px) {
     .main {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .section {
+    section .section {
         width: 80%;
     }
     .news {
