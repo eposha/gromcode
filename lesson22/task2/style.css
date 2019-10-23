@@ -1,0 +1,40 @@
+div {
+    height: 200px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.navigation {
+    background-color: #ff7f50;
+}
+
+.porducts-list {
+    background-color: #006400;
+}
+
+.news {
+    background-color: #0ff;
+    flex-grow: 1;
+}
+
+span {
+    background-color: #faebd7;
+    text-transform: lowercase;
+    font-family: Verdana;
+    padding: 4px;
+    margin: auto;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 600px) {
+    .products {
+        display: flex;
+        flex-grow: 2;
+    }
+}
+
+@media screen and (min-width: 899px) {
+    .content {
+        display: flex;
+    }
+}
