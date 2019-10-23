@@ -9,16 +9,10 @@ html {
 
 .header {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     height: 3em;
     padding: 0 1em;
     background-color: #eee;
-}
-
-.fa-bars {
-    display: block;
-    display: inline-block;
-    font-size: 2em;
 }
 
 .btn {
@@ -39,6 +33,7 @@ html {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    padding: 1em;
 }
 
 .nav-list-item {
