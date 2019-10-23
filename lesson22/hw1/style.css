@@ -9,14 +9,14 @@ html {
 
 .header {
     display: flex;
-    /* justify-content: center; */
+    align-items: center;
     height: 3em;
     padding: 0 1em;
     background-color: #eee;
 }
 
 .fa-bars {
-    display: inline-block;
+    /* display: block; */
     font-size: 2em;
 }
 
@@ -31,7 +31,8 @@ html {
 
 .navigation {
     width: 20vw;
-    padding: 1em 0.5em;
+    padding: 1em;
+    padding-left: 0.5em;
 }
 
 .nav-list {
