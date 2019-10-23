@@ -1,8 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 main {
     display: flex;
 }
 
 picture {
-    max-width: 100%;
     margin: auto;
+}
+
+img {
+    max-width: 100%;
 }
