@@ -99,25 +99,26 @@ img {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
+@media screen and (max-width: 801px) {
+    .main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .section {
+        width: 80%;
+    }
+    .news {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .main {
         flex-direction: column;
     }
     .navigation,
     .section,
-    .news {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .main {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    section .section {
-        width: 80%;
-    }
     .news {
         width: 100%;
     }
