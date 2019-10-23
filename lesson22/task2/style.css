@@ -1,23 +1,30 @@
-div {
-    height: 200px;
-    display: flex;
-    flex-grow: 1;
+* {
+    box-sizing: content-box;
 }
 
 .navigation {
     background-color: #ff7f50;
+    min-height: 200px;
+    display: flex;
+    flex-grow: 1;
 }
 
 .porducts-list {
     background-color: #006400;
+    min-height: 200px;
+    display: flex;
+    flex-grow: 1;
 }
 
 .news {
     background-color: #0ff;
+    min-height: 200px;
+    display: flex;
     flex-grow: 1;
 }
 
 span {
+    display: block;
     background-color: #faebd7;
     text-transform: lowercase;
     font-family: Verdana;
@@ -33,7 +40,7 @@ span {
     }
 }
 
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 799px) {
     .content {
         display: flex;
     }
