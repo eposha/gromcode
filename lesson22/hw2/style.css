@@ -94,10 +94,6 @@ body {
     text-overflow: ellipsis;
 }
 
-picture {
-    max-width: 100%;
-}
-
 img {
     max-width: 100%;
 }
