@@ -101,6 +101,7 @@ img {
 
 @media screen and (max-width: 900px) {
     .main {
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
@@ -111,15 +112,16 @@ img {
     .news {
         width: 100%;
     }
-}
-
-@media screen and (max-width: 600px) {
-    .main {
-        flex-direction: column;
-    }
-    .navigation,
-    .section,
-    .news {
-        width: 100%;
+    @media screen and (max-width: 600px) {
+        .main {
+            display: flex;
+            flex-direction: row;
+            /* width: 100%; */
+        }
+        .section,
+        .news,
+        .navigation {
+            width: 100%;
+        }
     }
 }
