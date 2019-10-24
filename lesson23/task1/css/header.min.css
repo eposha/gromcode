@@ -1,0 +1,2 @@
+.header{height:56px;background-color:#eee}.nav-list{padding:0;margin:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;list-style-type:none;height:56px;color:#fff;font-weight:700}.nav-list__item{background-color:coral;padding:8px;margin-left:8px;border-radius:4px;cursor:pointer}.nav-list__item_selected{background-color:#fb0}.nav-list__item:hover{opacity:0.7}
+/*# sourceMappingURL=header.min.css.map */
