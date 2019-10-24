@@ -16,13 +16,14 @@ html {
     .menu {
         display: flex;
         height: 100%;
+        padding: 0;
         margin: 0;
         margin-left: 3em;
         text-transform: uppercase;
         list-style-type: none;
         .menu__item {
             height: 100%;
-            margin: 0 8px;
+            padding: 0 8px;
             cursor: pointer;
             &-text {
                 display: flex;
@@ -33,30 +34,33 @@ html {
             &:hover {
                 background-color: #9acd32;
             }
-            &:hover .submenu {
-                display: block;
-            }
-        }
-        .menu__item_active {
+            // &:hover .submenu {
+            //     display: block;
+            // }
             .submenu {
                 display: none;
-                position: absolute;
-                margin: 0;
-                padding: 0;
-                background-color: #ff7f50;
-                box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-                color: white;
-                width: 120px;
-                z-index: 1;
-                list-style-type: none;
-                &__item {
-                    padding: 8px;
-                    cursor: pointer;
-                    &:hover {
-                        color: black;
-                    }
-                }
             }
         }
+        // .menu__item_active {
+        //     .submenu {
+        //         display: none;
+        //         position: absolute;
+        //         margin: 0;
+        //         padding: 0;
+        //         background-color: #ff7f50;
+        //         box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+        //         color: white;
+        //         width: 120px;
+        //         z-index: 1;
+        //         list-style-type: none;
+        //         &__item {
+        //             padding: 8px;
+        //             cursor: pointer;
+        //             &:hover {
+        //                 color: black;
+        //             }
+        //         }
+        //     }
+        // }
     }
 }

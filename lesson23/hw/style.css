@@ -17,6 +17,7 @@ html {
 .header .menu {
   display: flex;
   height: 100%;
+  padding: 0;
   margin: 0;
   margin-left: 3em;
   text-transform: uppercase;
@@ -24,7 +25,7 @@ html {
 }
 .header .menu .menu__item {
   height: 100%;
-  margin: 0 8px;
+  padding: 0 8px;
   cursor: pointer;
 }
 .header .menu .menu__item-text {
@@ -36,27 +37,8 @@ html {
 .header .menu .menu__item:hover {
   background-color: #9acd32;
 }
-.header .menu .menu__item:hover .submenu {
-  display: block;
-}
-.header .menu .menu__item_active .submenu {
+.header .menu .menu__item .submenu {
   display: none;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  background-color: #ff7f50;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  color: white;
-  width: 120px;
-  z-index: 1;
-  list-style-type: none;
-}
-.header .menu .menu__item_active .submenu__item {
-  padding: 8px;
-  cursor: pointer;
-}
-.header .menu .menu__item_active .submenu__item:hover {
-  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
