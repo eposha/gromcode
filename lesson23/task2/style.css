@@ -9,6 +9,16 @@ body {
   height: 100vh;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
 .square {
   width: 100px;
   height: 100px;
@@ -18,19 +28,16 @@ body {
 @media screen and (min-width: 600px) {
   .square {
     background-color: #8a2be2;
-    orientation: landscape;
   }
 }
 @media screen and (min-width: 900px) {
   .square {
     background-color: #a61;
-    orientation: landscape;
   }
 }
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
-    orientation: landscape;
   }
 }
 

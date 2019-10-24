@@ -10,6 +10,14 @@ body {
     height: 100vh;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    @include for-extra-small {
+        flex-direction: row;
+    }
+}
+
 .square {
     width: 100px;
     height: 100px;
@@ -17,14 +25,11 @@ body {
     margin: 16px;
     @include for-extra-small {
         background-color: #8a2be2;
-        orientation: landscape;
     }
     @include for-medium-up {
         background-color: #a61;
-        orientation: landscape;
     }
     @include for-large-up {
         background-color: #c47;
-        orientation: landscape;
     }
 }
