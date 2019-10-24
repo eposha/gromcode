@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 600px) {
+@media screen and (orientation: landscape) {
   .container {
     flex-direction: row;
   }
@@ -23,7 +23,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 16px;
+  margin: 8px;
 }
 @media screen and (min-width: 600px) {
   .square {
