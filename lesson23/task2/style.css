@@ -13,21 +13,24 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 8px;
+  margin: 16px;
 }
 @media screen and (min-width: 600px) {
   .square {
     background-color: #8a2be2;
+    orientation: landscape;
   }
 }
 @media screen and (min-width: 900px) {
   .square {
     background-color: #a61;
+    orientation: landscape;
   }
 }
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
+    orientation: landscape;
   }
 }
 

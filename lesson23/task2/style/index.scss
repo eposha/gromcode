@@ -14,14 +14,17 @@ body {
     width: 100px;
     height: 100px;
     background-color: #ff7f50;
-    margin: 8px;
+    margin: 16px;
     @include for-extra-small {
         background-color: #8a2be2;
+        orientation: landscape;
     }
     @include for-medium-up {
         background-color: #a61;
+        orientation: landscape;
     }
     @include for-large-up {
         background-color: #c47;
+        orientation: landscape;
     }
 }
